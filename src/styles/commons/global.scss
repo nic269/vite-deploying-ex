@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $font-body;
+  font-style: normal;
+  font-weight: 400;
+  color: $color-text;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include styleFor(desktop-and-up) {
+    width: $breakpoint-desktop;
+  }
+
+  @include styleFor(desktop-medium-and-up) {
+    width: $breakpoint-desktop-medium;
+  }
+
+  @include styleFor(desktop-large-and-up) {
+    width: $breakpoint-desktop-large;
+  }
+}
