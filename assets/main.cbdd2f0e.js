@@ -3,4 +3,4 @@ import{$ as e}from"./vendor.173eabb8.js";var a="/vite-deploying-ex/assets/favico
   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
   <img src="${t}" alt="Image example" />
   <img src="${a}" alt="vite logo" />
-`;e("#app").append("<p>Hello jQuery!</p>");
+`;e("#app").append("<p>Hello jQuery - update!</p>");
